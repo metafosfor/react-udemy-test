@@ -14,7 +14,7 @@ function ListGroup() {
 
     return (
         <>
-            <h1>CITY List</h1>
+            <h1>Hi Dmytro</h1>
             <ul className="list-group">
                 {items.map(item => <li
                     className={"list-group-item" + (selectedItem === item ? " active" : "")}
